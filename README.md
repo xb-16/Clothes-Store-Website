@@ -27,5 +27,3 @@
 - Checkout Page
 - Error Page
 - Legal Pages, like Terms & Conditions, Cookies Policy, Sales & Refund Policy
-
-🆕 You can Get More Features On : [UpWork](https://www.upwork.com/services/product/development-it-professional-modern-clothes-store-custom-dashboard-1853539656889285699?ref=fl_profile) 💲💲
