@@ -1,0 +1,46 @@
+.cart input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    background-color: transparent;
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+.number-input {
+    border: 2px solid white;
+    display: inline-flex;
+}
+.number-input button {
+    outline:none;
+    --webkit-appearance: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 6 Pro"; 
+    font-weight: 700;
+    content: '\f068';
+    transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+    content: "\2b";
+}
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 25px;
+    padding: 4px;
+    border-width: 0 2px;
+    font-size:medium;
+    text-align: center;
+}

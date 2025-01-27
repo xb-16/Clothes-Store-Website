@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from priimo.localhost/checkout/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2025 19:00:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    
+
+
+    <!-- Standard Meta Tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="invest your money in something worth">
+    <title>checkout</title>
+    <link rel="icon" href="../media/favicon.png">
+    <link rel="shortcut icon" href="../media/favicon.png" type="image/x-icon">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="priimo.localhost">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="checkout">
+    <meta property="og:description" content="invest your money in something worth">
+    <meta property="og:image" content="../media/favicon.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="priimo.localhost">
+    <meta name="twitter:title" content="checkout">
+    <meta name="twitter:description" content="invest your money in something worth">
+    <meta name="twitter:image" content="../media/favicon.png">
+
+    <!-- Google tag (gtag.js) -->
+    
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
+    
+
+    <link rel="stylesheet" href="../styles/numberInput.css">
+    <link rel="stylesheet" href="../styles/popup.css">
+    <link rel="stylesheet" href="../styles/checkout.css">
+    <link rel="stylesheet" href="../styles/checkoutCart.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <link rel="stylesheet" href="../styles/simpleHero.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+        <a href="../index-2.html"><img src="../media/compressedLogos/white.png" alt="logo of Inno Dev Store"></a>
+        </div>
+    </nav>
+    <header>
+        <h2>invest your money in something worth</h2>
+    </header>
+    
+    <article class="checkout">
+
+        <div class="container">
+            <div class="form">
+                <form action="http://priimo.localhost/checkout/hh.php" enctype="multipart/form-data" class="myForm">
+                <div class="tallBox">
+                    <div class="tab personalInfos">
+                        <h2>shipping information : </h2>
+                        <div class="twoInput">
+                            <div class="insideTwoInput">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" name="fullName" id="fullName" placeholder="Your Full Name" />
+                            </div>
+                            <div class="insideTwoInput">
+                                <label for="cni">Your Instruction to the seller</label>
+                                <input type="text" value="some instruction to the seller" name="instrct" id="instrct" placeholder="give some notes about your order" />
+                            </div>
+                        </div>
+                        <div class="twoInput">
+                            <div class="insideTwoInput">
+                                <label for="email">email address</label>
+                                <input type="email" name="email" id="email" placeholder="Your Email Address"/>
+                            </div>
+                            <div class="insideTwoInput">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="EX : 0617385973" />
+                            </div>
+                        </div>
+                        <div class="insideTwoInput">
+                            <label for="address">address</label>
+                            <input type="text" name="address" id="address" placeholder="your address" />
+                        </div>
+                        <div class="twoInput">
+                            <div class="insideTwoInput">
+                                <label for="city">city</label>
+                                <input type="text" name="city" id="city" placeholder="your city" />                   
+                            </div>
+                            <div class="insideTwoInput">
+                                <label for="weight">weight</label>
+                                <div class="input-container">
+                                    <input type="number" name="weight" id="weight" placeholder="your weight" />
+                                    <span class="unit">kg</span>
+                                </div>
+                            </div>
+                            <div class="insideTwoInput">
+                                <label for="height">height</label>
+                                <div class="input-container">
+                                    <input type="number" name="height" id="height" placeholder="your height" />
+                                    <span class="unit">cm</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="tab">
+                        <div class="payBox">
+                            <div class="banks">
+                                <div class="allWidth">
+                                    <h3>Send money to the bank that suits you</h3>
+                                </div>
+                                <div class="bank choosed" data-n="00000010940992" data-bank="Albarid Banque">
+                                    <img src="../media/banks/albarid.svg" alt="">
+                                </div>
+                                <div class="bank" data-n="00013900293130" data-bank="Societe Generale">
+                                    <img src="../media/banks/socite.svg" alt="">
+                                </div>
+                                <div class="bank" data-n="58154702127400" data-bank="CIH">
+                                    <img src="../media/banks/cih.png" alt="">
+                                </div>
+                                <div class="bank" data-n="21111033460007" data-bank="Banque Populaire">
+                                    <img src="../media/banks/bpp.png" alt="">
+                                </div>
+                                <input type="text" name="bank" id="bankName" value="Albarid Banque" hidden>
+                                <div class="allWidth bankInfos">
+                                    <div class="info">
+                                        <strong>Bank Name: </strong><span> Store Bank Name </span>
+                                        <i class="fa-solid fa-copy"></i>
+                                    </div>
+                                    <div class="info">
+                                        <strong>N° de compte: </strong><span id="nCompte">0000000010940992</span>
+                                        <i class="fa-solid fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="proof">
+                                <h3 class="allWidth">make a screenshot as a proof</h3>
+                                <div class="imgArea" data-title="">
+                                    <input type="file" name="screenshoot" id="screenshoot" hidden accept="image/*" />
+                                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                                    <h4>upload screenshoot</h4>
+                                    <p>image size must be less than <span>2MB</span></p>
+                                </div>
+                                <button class="selectImage" type="button">select image</button>
+                            </div>
+                        </div>
+                        <div class="agreement">
+                            <input type="checkbox" name="agreement" id="agreement1" value="publicPolicy"/>
+                            <label for="agreement">i have read and agree <strong>the terms and conditions</strong></label><br>
+                            <input type="checkbox" name="agreement" id="agreement2" valiue="salesPolicy"/>
+                            <label for="agreement">i have read and agree the <strong>sales policy</strong></label>
+                            <input type="submit" class="submit" style="visibility: hidden;" />
+                        </div>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                </div>
+                </form>
+            </div>
+
+            <div class="order cart">
+                <h3>your order</h3>
+                <div class="cartItems">
+                    
+                </div>
+                <div class="priceDetails">
+                    <div class="subtotal">
+                        <span>subtotal</span>
+                        <span id="subtotal">0.00 MAD</span>
+                    </div>
+                    <div class="shipping">
+                        <span>shipping fee</span>
+                        <span id="shipping">49.00 MAD</span>
+                    </div>
+                    <hr>
+                    <div class="total">
+                        <span>total</span>
+                        <span id="total">0.00</span>
+                    </div>
+                </div>
+        </div>
+    </article>
+
+    
+
+    <footer>
+    <div class="row1">
+        <h2>Your satisfaction is our top priority</h2>
+        <a class="arrowBtn" href="https://api.whatsapp.com/send/?phone=212770774083" target="_blank"><span>call us</span> <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <hr>
+    <div class="row2">
+        <div class="tall">
+            <div class="logo">
+                <a href="../index-2.html"><img loading="lazy" src="../media/compressedLogos/white.png" alt="logo of Inno Dev Store"></a>
+            </div>
+            <p>our vision is to be the best online store in morocco for men clothes, We focus on quality, beauty and design.</p>
+            <div class="social-links">
+                <a href="https://web.facebook.com/un.kown.5249?_rdc=1&amp;_rdr#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=2120770774083" target="_blank"><i class="fa-brands fa-solid fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/innodev/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div>
+            <h3>collection</h3>
+            <ul>
+                
+        <li><a href="../collection/hoodie.html">hoodie</a></li>
+        
+        <li><a href="../collection/jeans.html">jeans</a></li>
+        
+        <li><a href="../collection/jogging.html">jogging</a></li>
+        
+        <li><a href="../collection/pants.html">pants</a></li>
+        
+        <li><a href="../collection/shirts.html">shirts</a></li>
+        
+        <li><a href="../collection/shoes.html">shoes</a></li>
+        
+        <li><a href="../collection/suits.html">suits</a></li>
+        
+        <li><a href="../collection/Sweaters.html">Sweaters</a></li>
+                    </ul>
+        </div>
+        <div class="contact">
+            <h3>contact us</h3>
+            <ul>
+                <li>+212 662-401970</li>
+                <li><a  class="lowercase" href="mailto:business@innodev.ma">business@innodev.com</a></li>
+                <li class="lowercase">www.innodev.ma</li>
+                <li>morocco, laayoune</li>
+            </ul>
+        </div>
+        <div class="tall">
+            <h3>get the latest updates</h3>
+            <div class="rltvInpt">
+                <input class="footerInput" type="email" placeholder="Email Address">
+                <i class="fa-solid fa-paper-plane-top"></i>
+            </div>
+        </div>
+    </div>
+    <div class="row3">
+        <p> copyright &copy; <script>document.write(new Date().getFullYear())</script> innodev store, all rights reserved</p>
+        <p><a href="../agreements/termsConditions/index.html" target="_blank">user terms & conditions</a>  | <a href="../agreements/salesPolicy/index.html" target="_blank"> sales policy</a> </p>
+    </div>
+  </footer>
+<div class="popupContainer">
+    <div class="popup">
+        <i class="fa-solid"></i> &nbsp; <span></span>
+    </div>
+</div><div class="modalBox">
+    <h3></h3>
+    <p></p>
+</div>
+    <script src="../scripts/checkout.js"></script>
+    <script src="../scripts/popup.js"></script>
+    <script src="../scripts/cartCheckout.js"></script>
+    <script src="../scripts/modal.js"></script>
+    <script src="../scripts/typingMotion.js"></script>
+</body>
+
+<!-- Mirrored from priimo.localhost/checkout/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Jan 2025 19:00:15 GMT -->
+</html>

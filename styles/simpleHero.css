@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Sofia Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sofia-pro-webfont/Sofia%20Pro%20Light%20Az.woff');
+}
+
+body {
+    font-family: 'Sofia Pro Light';
+    text-transform: capitalize;
+    position: relative;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+}
+nav .logo {
+    flex-basis: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a {
+    height: 100%;
+}
+header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url('../media/slider/fourth_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header h2 {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0,.9);
+    border-right: 5px solid;
+    width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:typing 4s steps(36) paused,cursor .4s step-end infinite paused;
+}
+@keyframes typing {
+    from{width:0}
+}
+@keyframes cursor {
+    50%{border-color: transparent}
+}
+
+@media (max-width: 950px) {
+    header h2 {
+        width: 68%;
+    }
+}
+@media (max-width: 1100px) {
+    header h2 {
+        width: 70%;
+    }
+}
+@media (max-width: 600px) {
+    header h2 {
+        font-size: .8rem;
+        width: 75%;
+    }
+}
+footer {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
